@@ -1,0 +1,57 @@
+body {
+  font-family:'Montserrat', sans-serif;
+  line-height: 1.4em;
+  text-align: center;
+  background-image: url("https://www.digitalplatforms.co.za/wp-content/uploads/2015/11/Website-Design-Background.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  float: left;
+
+}
+
+article {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+h1 {
+	font-family: 'Roboto Condensed', sans-serif;
+	color: white;
+}
+
+section {
+	color: lightgrey
+	
+}
+
+#profile-pic {
+	border-radius: 50px 50px 0px 0px;
+}
+
+#inner-box {
+	width: 80px;
+	height: 80px;
+	background-color: lightblue;
+	border: lightgreen 40px solid;
+	box-sizing: 80px;
+	position: absolute;
+	
+}
+
+#outer-box {
+	width: 200px;
+	height: 200px;
+	background-color: yellow;
+	border: orange 30px solid;
+	box-sizing: 200px;
+	display: flex;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+}
+
+#boxbox {
+	display: flex;
+	justify-content: center;
+}
+
